@@ -9,7 +9,7 @@ relative_permalinks: true
 # Setup
 title:            Yunho Github Blog
 tagline:          Black Theme for Jekyll
-description:      "... :) "
+description:      ""
 url:              http://dambatbul.github.io/
 baseurl:          /
 
