@@ -3,7 +3,7 @@ layout: post
 title: "Hello World"
 description: ""
 category: 
-tags: []
+tags: [tip]
 ---
 {% include JB/setup %}
 
@@ -59,10 +59,10 @@ tags: []
 
 
 <text font-family="Super Sans">
-### 자킬은 블로그 소프트웨어가 아니다??
+### 지킬은 블로그 소프트웨어가 아니다??
 **Jekyll is a parsing engine.**
 </text>
-### 자킬 사용가이드
+### 지킬 사용가이드
 
 ## Initial Setup
 
