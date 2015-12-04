@@ -47,15 +47,21 @@ git 저장소 업데이트 하기
 
 ## 브랜치 tips
 
-View all branches
+보기:
 
 	$ git branch -a
 
-Create the branch on your local machine and switch in this branch :
+	or
+	
+	$ git remote show origin
+
+
+새로운 브렌치 생성:
 
 	$ git checkout -b [name_of_your_new_branch]
 
-Push the branch on github :
+
+새로운 브랜치 리포트 추가:
 
 	$ git push origin [name_of_your_new_branch]
 
@@ -63,10 +69,6 @@ Add a new remote for your branch :
 
 	$ git remote add [name_of_your_remote] 
 
-Push changes from your commit into your branch :
-
-	$ git push origin [name_of_your_remote]
-	
 Update your branch when the original branch from official repository has been updated :
 
 	$ git fetch [name_of_your_remote]
@@ -75,15 +77,15 @@ Then you need to apply to merge changes, if your branch is derivated from develo
 
 	$ git merge [name_of_your_remote]/develop
 
-Delete a branch on your local filesystem :
+브렌치 삭제:
 
 	$ git branch -d [name_of_your_new_branch]
 
-To force the deletion of local branch on your filesystem :
+	or To force the deletion of local branch on your filesystem :
 
 	$ git branch -D [name_of_your_new_branch]
 
-Delete the branch on github :
+원격 저장소 브렌치 삭제 :
 
 	$ git push origin :[name_of_your_new_branch]
 
