@@ -58,6 +58,10 @@ git 저장소 업데이트 하기
 
 	$ git push origin [name_of_your_new_branch]
 
+로컬 브랜치와 remote브랜치간 연동:
+
+	$ git branch --set-upstream-to origin/[name_of_your_new_branch]
+
 Add a new remote for your branch :
 
 	$ git remote add [name_of_your_remote] 
