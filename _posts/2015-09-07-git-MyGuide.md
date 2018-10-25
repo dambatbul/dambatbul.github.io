@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "GIT 사용가이드"
-description: ""
+date:   2015-09-07 00:18:23 +0700
+categories: [Others]
 ---
-{% include JB/setup %}
 
 ## 병합하기
 	$ git clone git@gitorious/projA.git projA
