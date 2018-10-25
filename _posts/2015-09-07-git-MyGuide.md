@@ -2,8 +2,6 @@
 layout: post
 title: "GIT 사용가이드"
 description: ""
-category: 
-tags: [tip]
 ---
 {% include JB/setup %}
 
