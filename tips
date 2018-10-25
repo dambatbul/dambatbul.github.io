@@ -1,5 +1,0 @@
-# Jekyll start
-$ jekyll serve
-
-# 새로운 포스트 만들기
-$ rake post title="jekyll blogging"
